@@ -1,6 +1,6 @@
-const q = (selector) => document.querySelector(selector);
-const listContainer = q("#list");
-const userString = q("#userString");
+const film = (selector) => document.querySelector(selector);
+const listContainer = film("#list");
+const userString = film("#userString");
 const movies = [
   "Deadpool",
   "Dune",
@@ -15,7 +15,7 @@ const movies = [
 
 listContainer.innerHTML = movies.map((movie) => `<li>${movie}</li>`).join("");
 
-q("#pulsante").addEventListener("click", () => {
+film("#pulsante").addEventListener("click", () => {
   const filteredList = movies.filter((movie) =>
     movie.toLowerCase().includes(userString.value.toLowerCase())
   );
