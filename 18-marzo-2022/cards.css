@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+}
+
+body{
+   min-height:100vh;
+    transition: 0.5s; 
+    transition-timing-function: ease-in;
+    background-image: url("https://wallpapercave.com/wp/wp8649138.jpg");
+    display: inline-block;
+    margin: 0 250px ;
+    padding: 25px 100px; 
+   
+}
+
+
+h2 {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.addCharacter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 10px;
+    border: 2px solid rgb(24, 24, 27);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 10px;
+    border: 2px solid rgb(24, 24, 27);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 10px;
+    border: 2px solid rgb(24, 24, 27);
+    background-image: url("");
+    
+}
+
+#name {
+    font-size: large;
+    margin: 5px; 
+
+}
+
+#universe {
+    font-size: large;
+    margin: 5px;
+
+}
+
+#search {
+    font-size: large;
+    margin: 5px;
+}
+
+#add {
+    align-content: center;
+    display: flex;
+    position: relative;
+    border-radius: 6px;
+    border: 2px solid rgb(24, 24, 27);
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+
+.cards{  
+    
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    border: 2px solid rgb(24, 24, 27);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: larger;
+    background-image: url("");
+    
+}
+
+
+
+

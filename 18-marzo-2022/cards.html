@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista Personaggi - Esercizio 18-03</title>
+    <link rel="stylesheet" href="cards.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="title">
+            <h1>Lista Personaggi</h1>
+        </div>
+      <div class="addCharacter">
+        <h2>Aggiungi un nuovo personaggio:</h2>
+        <div class="item">
+          <label for="name">Nome:</label>
+          <input placeholder="Es: Luke Skywalker" type="text" id="name">
+        </div>
+        <div class="item">
+          <label for="universe">Universo:</label>
+          <input placeholder="Es: Star Wars" type="text" id="universe">
+        </div>
+        <button id="add">+ Aggiungi</button>
+      </div>
+
+      
+      <div class="container">
+        <h2>Cerca personaggio o universo:</h2>
+          <label for="search">Cerca i risultati: </label>
+          <input type="text" id="search" placeholder="Cerca...">
+        </div>
+        <div class="cards"></div>
+      </div>
+
+    <script src="cards.js"></script>
+  </body>
+</html>
