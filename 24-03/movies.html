@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./movies.css" />
+  </head>
+  <body>
+    <h3 id="titolo">Movies & TV Series Database!</h3>
+    <form>
+      <label for="title"></label>
+      <input type="text" id="title" name="Title" placeholder="title" />
+
+      <label for="description"></label>
+      <input
+        type="text"
+        id="description"
+        name="description"
+        placeholder="Description"
+      />
+
+      <label for="poster"></label>
+      <input type="text" id="poster" name="Poster" placeholder="poster" />
+
+      <label for="genres"></label>
+      <input type="text" id="genres" name="Genres" placeholder="genres"/>
+
+      <label for="year"></label>
+      <input type="text" id="year" name="Year" placeholder="year" />
+
+       <input type ="submit" id="submit" placeholder="Invia" />
+
+    </form>
+    
+    <div class="check">
+   
+      <label for="action">Action</label>
+      <input type="checkbox" id="action" name="action" class="genres" value="action">
+
+      <label for="adventure">Adventure</label>
+      <input type="checkbox" id="adventure" name="adventure" class="genres" value="adventure">
+
+      <label for="Animation">Animation</label>
+      <input type="checkbox" id="animation" name="animation" class="genres" value="animation">
+
+      <label for="documentary">Documentary</label>
+      <input type="checkbox" id="documentary" name="documentary" class="genres" value="documentary">
+
+      <label for="comedy">Comedy</label>
+      <input type="checkbox" id="comedy" name="comedy" class="genres" value="comedy">
+
+      <label for="drama">Drama</label>
+      <input type="checkbox" id="drama" name="drama" class="genres" value="drama">
+
+      <label for="fantasy">Fantasy</label>
+      <input type="checkbox" id="fantasy" name="fantasy" class="genres" value="fantasy">
+
+      <label for="horror">Horror</label>
+      <input type="checkbox" id="horror" name="horror" class="genres" value="horror">
+
+      <label for="sci-fi">Sci-Fi</label>
+      <input type="checkbox" id="sci-fi" name="sci-fi" class="genres" value="sci-fi">
+
+      <label for="thriller">Thriller</label>
+      <input type="checkbox" id="thriller" name=""thriller class="genres" value="thriller">
+
+    </div>
+
+    <div class=" btnContainer">
+      <input type="submit" id="submit" class="pulsante">
+    </div>
+   
+
+    <div class="wrapperMovies"></div>
+
+   
+    <script src="./movies.js" type="module"></script>
+    <script src="./utils2.js" type="module"></script> 
+  </body>
+</html>

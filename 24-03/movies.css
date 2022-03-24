@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    display: inline;
+    flex-direction: wrap;
+    justify-content: column;
+    align-items: center;
+    background-color: rgba(240, 245, 250, 0.836);
+  }
+
+  #titolo { 
+      justify-content: center;
+      padding: 20px;
+      margin: 20px;
+      font-size: 50px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: black;
+    
+    }
+  
+  div > img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  div {
+    width: 200px;
+    padding: 10px;
+    border-radius: 16px;
+    
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+
+
+  }
+  
+  form > input {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 4px;
+    margin: 5px;
+  }
+
+  
+  .wrapperMovies {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    gap: 25px;
+
+  }
+  
+  .wrapperMovies > div { 
+    padding: 5px;
+    box-shadow: 0 0 6px 2px #0000002c;
+     
+
+  }   
+
+
+  
