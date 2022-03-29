@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;500&family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./stile.css" />
+  </head>
+  <body>
+    <h1>Movies and TV Shows Database</h1>
+
+    <div class="container-form">
+      <form>
+        <label for="title"></label>
+        <input type="text" id="title" name="title" placeholder="Title..." />
+
+        <label for="description"></label>
+        <input
+          type="text"
+          id="description"
+          name="description"
+          placeholder="Description..."
+        />
+
+        <label for="poster"></label>
+        <input type="text" id="poster" name="poster" placeholder="Poster..." />
+
+        <label for="year"></label>
+        <input type="text" id="year" name="year" placeholder="Year..." />
+
+        <label for="genre"></label>
+        <input type="text" i="genre" name="genre" placeholder="Genre..." />
+
+        <input type="submit" id="submit" />
+      </form>
+    </div>
+
+    <div class="wrapperMovies"></div>
+    <div class="overlay"></div>
+     
+    <!-- 
+    <div class="modalWrapper">
+      <img src="https://picsum.photos/200/300" alt="" />
+      <div class="info">
+        <h1>TITOLO</h1>
+        <p>DESC</p>
+        <p>1990</p>
+      </div>
+    </div>-->
+
+    <div id="modalHost"></div>
+
+    <script src="./script.js" type="module"></script>
+    <script src="./utils.js" type="module"></script>
+  </body>
+</html>

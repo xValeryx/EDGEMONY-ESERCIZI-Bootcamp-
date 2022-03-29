@@ -1,0 +1,190 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+ }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  /* Form */
+  
+  .container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+   
+  }
+  
+  form  {
+    box-sizing:border-box;
+    width: 400px;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  input[type=text] {
+    width:100%;
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    margin: 10px;
+    
+  }
+  
+  #submit {
+  
+    /* remove default behavior */
+    appearance:none;
+    -webkit-appearance:none;
+  
+    /* usual styles */
+    padding:10px;
+    border:none;
+    background-color:#3F51B5;
+    color:#fff;
+    font-weight:600;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 10px;
+  
+  }
+
+   /* CARD CONTAINER & CARD */
+
+   
+  .wrapperMovies {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 50px;
+    box-sizing: content-box;
+  }
+  
+  .card {
+    position: relative;
+    width: 200px;
+    background: rgb(34, 33, 33);
+    max-height: 500px;
+    text-align: center;
+    border-radius: 1em;
+    margin: 1em;
+    color: aliceblue;
+    font-size: 10px;
+    box-shadow: 10px 10px 44px -10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 44px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 44px -10px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    transition: all 0.8s ease-out;
+  }  
+
+  img {
+    width: 200px;
+    border-radius: 10px;
+  }
+
+  h3 {
+      font-size: 20px;
+      font-family: 'Poppins', sans-serif;
+  }
+
+   h2 { 
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+  }
+
+  #genre p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+  }
+
+  
+  /* Modale da sistemare */ 
+  
+  .modalBtn {
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+  }
+  
+  .modalWrapper {
+    background-color: rgb(13, 14, 14);
+    display: none;
+    align-items: center;
+    gap: 20px;
+    width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.746);
+  }
+  
+  .modalWrapper > img {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    display: none;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+  }
+  
+  .showModal {
+    display: flex;
+    /* position: fixed;
+    top: calc(50vh - 150px);
+    left: calc(50vw - 200px); */
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+  }
+  
+  .activeBtn {
+    color: rgb(94, 34, 24);
+  }
+  
+  .hideOverlay {
+    display: block;
+  }
+  
+ 
+  
+  
+  /* MODAL */
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.857);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    display: none;
+    cursor: pointer;
+  
+  }
