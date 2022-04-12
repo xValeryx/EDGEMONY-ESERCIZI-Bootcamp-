@@ -1,0 +1,7 @@
+farina 100g 
+zucchero 100g 
+
+prodotto, quantità
+pasta, 200g
+mele, 10
+pere, 3
