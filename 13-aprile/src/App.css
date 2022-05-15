@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+  
+}
+
+.description-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.footer {
+  justify-content: center;
+  text-align: center;
+}
+
+h2 {
+  font-size: medium;
+}
+
+.form {
+  display: block;
+  
+}
+
+
+
+
